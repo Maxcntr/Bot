@@ -12,8 +12,8 @@ public class SimplChatBot extends JFrame implements ActionListener {
     final int WINDOW_WITHD = 350;
     final int WINDOW_HEIGHT = 450;
 
-    JTextArea dialoque;  // area for dialog
-    JCheckBox ai;         //enabl/disnabl AI
+    JTextArea dialoque;
+    JCheckBox ai;
     JTextField massage;
     SimpleBot sbot;
 
@@ -31,6 +31,7 @@ public class SimplChatBot extends JFrame implements ActionListener {
         dialoque.setLineWrap(true);
         JScrollPane scrollPane = new JScrollPane(dialoque);
         dialoque.setEnabled(false);
+
 
 
 
